@@ -1,0 +1,9 @@
+---
+  - name: adding some users
+    hosts: web
+    tasks: 
+      - name: creating jerome user
+        user:
+          name: jerome
+          state: present
+
